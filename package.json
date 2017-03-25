@@ -4,7 +4,8 @@
   "description": "Curriculum for React.js Program's React Fundamentals course.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon server/server.js",
+    "build:watch": "webpack --watch"
   },
   "repository": {
     "type": "git",
